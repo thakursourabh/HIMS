@@ -12,6 +12,9 @@ export default defineConfig({
                 ...refreshPaths,
                 'app/Livewire/**',
             ],
+            server: {
+                host: true
+            }
         }),
     ],
 });
